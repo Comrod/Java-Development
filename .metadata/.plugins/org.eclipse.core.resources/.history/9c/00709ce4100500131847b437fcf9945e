@@ -8,7 +8,7 @@ public class Calculator
 	
 	public static void main(String[] args)
 	{
-		int answer;
+		/int answer;
 		
 		System.out.print("Enter the first number: ");
 		String input1 = scanner.nextLine();
@@ -20,7 +20,7 @@ public class Calculator
 		System.out.println("Your second number was " + input2);
 		int int2 = Integer.valueOf(input2);
 		
-		System.out.print("Do you want to add, subtract, multiply, divide, or average ");
+		System.out.print("Do you want to add, subtract, multiply, or divide ");
 		String operatorinput = scanner.nextLine();
 		
 		if(operatorinput.equals("add") || operatorinput.equals("Add"))
@@ -42,11 +42,6 @@ public class Calculator
 		{
 			answer = int1 / int2;
 			System.out.println("You chose division. Your answer is: " + answer);
-		}
-		else if(operatorinput.equals("average") || operatorinput.equals("Agerage"))
-		{
-			answer = (int1 + int2) / 2;
-			System.out.println("You chose averaging. Your answer is: " + answer);
 		}
 	}
 

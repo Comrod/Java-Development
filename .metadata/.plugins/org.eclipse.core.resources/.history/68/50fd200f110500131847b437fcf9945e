@@ -46,7 +46,7 @@ public class Calculator
 		else if(operatorinput.equals("average") || operatorinput.equals("Agerage"))
 		{
 			answer = (int1 + int2) / 2;
-			System.out.println("You chose averaging. Your answer is: " + answer);
+			System.out.println("You chose division. Your answer is: " + answer);
 		}
 	}
 
