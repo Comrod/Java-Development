@@ -1,9 +1,0 @@
-package com.github.Comrod.Java.Development;
-
-public class Calculator {
-	
-	public static void main(String[] args) {
-
-	}
-
-}
