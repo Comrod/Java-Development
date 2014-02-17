@@ -1,0 +1,32 @@
+package com.Github.Comrod.RealGravity;
+
+import org.lwjgl.LWJGLException;
+import org.lwjgl.opengl.Display;
+import org.lwjgl.opengl.DisplayMode;
+
+public class Main
+{
+
+	public void start()
+	{
+		try {
+			Display.setDisplayMode(new DisplayMode(800, 600));
+			Display.create();
+		} catch (LWJGLException e) {
+			e.printStackTrace();
+			System.exit(0);
+		}
+		
+		while (!Display.isCloseRequested())
+		{
+			//Render open GL here
+		}
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

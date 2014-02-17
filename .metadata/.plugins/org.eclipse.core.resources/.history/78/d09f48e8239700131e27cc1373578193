@@ -1,0 +1,19 @@
+package com.Github.Comrod.RealGravity;
+
+public class Main
+{
+
+	public void start()
+	{
+		try {
+			Display.setDisplay(new DisplayMode(800, 600));
+			Display.create();
+		}
+	}
+	
+	public static void main(String[] args)
+	{
+		
+	}
+
+}
